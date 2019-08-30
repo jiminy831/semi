@@ -3,16 +3,16 @@ package com.git.model.vo;
 public class Person {
 	
 	private String name;
-	private int age;
+	private String addr;
 	
 	public Person() {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Person(String name, int age) {
+	public Person(String name, String addr) {
 		super();
 		this.name = name;
-		this.age = age;
+		this.addr = addr;
 	}
 
 	public String getName() {
@@ -23,14 +23,14 @@ public class Person {
 		this.name = name;
 	}
 
-	public int getAge() {
-		return age;
+	public String getAddr() {
+		return addr;
 	}
 
-	public void setAge(int age) {
-		this.age = age;
+	public void setAddr(String addr) {
+		this.addr = addr;
 	}
 	
 	
-
+	
 }
